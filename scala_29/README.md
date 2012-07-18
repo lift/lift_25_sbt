@@ -10,6 +10,9 @@
 - lift_mvc   is a Lift project that uses Lift's MVC support rather
              than view-first.  No model stuff, but Blueprint CSS
 
+- lift_json  is a Lift project that uses Lift's json library in a specs2 test class
+             to demonstrate extractions based on case classes.
+
 
 ##All projects feature:
 
