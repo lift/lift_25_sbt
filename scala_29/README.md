@@ -19,5 +19,5 @@
 1. specs2
 2. logback
 3. log back sample xml configuration file (for both, runtime and test)
-4. jetty 7.5
+4. jetty 8.1
 5. lift-jquery-module module to bring the latest jQuery plugin
