@@ -14,7 +14,7 @@
              to demonstrate extractions based on case classes.
 
 
-##All projects feature:
+##All projects features:
 
 1. specs2
 2. logback
