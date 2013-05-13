@@ -7,6 +7,7 @@ organization := "net.liftweb"
 scalaVersion := "2.9.1"
 
 resolvers ++= Seq("snapshots"     at "http://oss.sonatype.org/content/repositories/snapshots",
+"staging" at "http://oss.sonatype.org/content/repositories/staging",
                 "releases"        at "http://oss.sonatype.org/content/repositories/releases"
                 )
 
@@ -17,7 +18,7 @@ unmanagedResourceDirectories in Test <+= (baseDirectory) { _ / "src/main/webapp"
 scalacOptions ++= Seq("-deprecation", "-unchecked")
 
 libraryDependencies ++= {
-  val liftVersion = "2.5-RC5"
+  val liftVersion = "2.5-RC6"
   Seq(
     "net.liftweb"       %% "lift-webkit"        % liftVersion        % "compile",
     "net.liftweb"       %% "lift-mapper"        % liftVersion        % "compile",
